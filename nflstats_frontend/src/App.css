@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.stat{
+  background-image: url(https://i.pinimg.com/originals/5d/87/7d/5d877da2f01dac3631f807612ea8f413.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  color: aliceblue;
+}
+
+h2{
+  color:green;
+}
+
+h3{
+  color: black;
+}
+
+.app{
+ text-align: center;
+ background-color: black;
+ color: whitesmoke;
+}
+
+

@@ -51,8 +51,8 @@ export default function App() {
     }
   };
   return (
-    <div>
-      <h1>Stats</h1>
+    <div className="app">
+      <h1 style={{color:"whitesmoke"}}> QB Passing Yards Stats</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name</label>
         <input

@@ -6,7 +6,7 @@ export default function Stats(props) {
       {props.stats.map((stat) => {
         return (
           <div key={stat.id} className="stat">
-            <h2>{stat.name}</h2>
+            <h1>{stat.name}</h1>
             <img src={stat.img} />
             <h2>{stat.yards}</h2>
             <h3>{stat.team}</h3>
